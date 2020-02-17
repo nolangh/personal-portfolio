@@ -1,3 +1,18 @@
+/* navigation */
+#navbar {
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+.navlist {
+    display: flex;
+    flex-direction: row;
+}
+.navlist li {
+    display: flex;
+    justify-content: space-between;
+    
+}
 .welcome-section {
     background-color: aqua;
 }
