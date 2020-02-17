@@ -1,6 +1,10 @@
 
 html {
+    margin: 0;
     scroll-behavior: smooth;
+}
+body {
+    margin:0;
 }
 /* unorderd list */
 ul {
@@ -52,7 +56,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
     background-color: coral;
 }
