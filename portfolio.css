@@ -1,0 +1,62 @@
+/* navigation */
+#navbar {
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); */
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+/* unorderd list */
+ul {
+    list-style: none;
+}
+
+/* list items */
+li {
+    display: flex;
+    padding: .5rem;
+}
+
+.nav-list a {
+    display: flex;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.nav-list a:hover {
+    background-color: white;
+}
+
+/* welcom section */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: coral;
+}
+
+.projects {
+    background-color: yellow;
+}
+
+.contact {
+    background-color: chartreuse;
+}
