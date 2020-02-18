@@ -11,26 +11,39 @@
     <link rel="stylesheet" href="styles/index.processed.css">
     <link rel="stylesheet" href="portfolio.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Fredoka+One|Knewave|Lacquer|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Fredoka+One|Knewave|Lacquer|Shadows+Into+Light&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Personal Portfolio Page</title>
 </head>
 
 <body>
-                    <!-- Nav -->
+    <!-- Nav -->
     <nav id="navbar" class="nav">
         <ul class="nav-list">
-            <li><a href="#welcome-section">about</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li>
+                <a href="#welcome-section">about</a>
+            </li>
+            <li>
+                <a href="#projects">projects</a>
+            </li>
+            <li>
+                <a href="#contact">contact</a>
+            </li>
         </ul>
     </nav>
-                    <!-- Welcome Section -->
-    <section id="welcome-section" class="welcome-section">
-        <h1>Hi I'm Nolan</h1>
-        <h3>Former Gold Miner / Future Developer</h3>
-    </section>
-                    <!-- projects section -->
+    <!-- Welcome Section -->
+        <section id="welcome-section" class="welcome-section">
+            <figure>
+                <img src="images/bolt.png" alt="lightning bolt">
+                <figcaption id="bolt">
+                    <h1>What's Up? I'm Nolan</h1>
+                    <h2>Former Gold miner / Future Developer</h2>
+                </figcaption>
+            </figure>
+        </section>
+    <!-- projects section -->
     <section id="projects" class="project-section">
         <h1>these are some of my projects</h1>
         <div class="project-tile">
@@ -44,13 +57,13 @@
                     <figcaption>First Project</figcaption>
                 </a>
             </figure>
-            <figure>
+            <figure id="uvu">
                 <img src="images/uvu.jpg" alt="uvu">
                 <figcaption>uvu</figcaption>
             </figure>
         </div>
     </section>
-                    <!-- Contact Section -->
+    <!-- Contact Section -->
     <section id="contact" class="contacts">
         <h1 id="contacth1">Hit Up Ya Boi</h1>
         <div class="icon">
@@ -64,10 +77,10 @@
                 <i class="far fa-envelope">Shoot Me An Email</i>
             </a>
             <a href="tel:907-978-4160" target="_blank">
-                    <i class="fas fa-mobile-alt">Call me</i>
-                </a>
+                <i class="fas fa-mobile-alt">Call me</i>
+            </a>
             <a href="https://steamcommunity.com/profiles/76561198132931913/home" target="_blank">
-                    <i class="fab fa-steam-square"">Let's Game</i>
+                <i class="fab fa-steam-square"">Let's Game</i>
                 </a>
         </div>
     </section>
@@ -75,7 +88,7 @@
     <footer>
         <p>&copyNolan Higgins, personal portfolio site</p>
     </footer>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" id="script"></script>
 </body>
 
 </html>
