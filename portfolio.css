@@ -155,12 +155,21 @@ ul {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+        font-family:'Permanent Marker', cursive;
         width: 100%;
         max-width: 980px;
         margin-top: 4rem;
 }
 .icon, i {
-    margin: 3rem;
+    font-size: 3rem;
+    margin: 1.9rem;
+    text-shadow: 2px 2px 1px black;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+
+}
+span {
+    font-family: 'Permanent Marker', cursive;
 }
 #contacth1 {
     display: flex;
