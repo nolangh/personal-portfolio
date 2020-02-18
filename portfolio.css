@@ -110,7 +110,9 @@ ul {
     max-width: 980px;
     margin-top: 4rem;
 }
-
+.project-tile a {
+    text-decoration: none;
+}
 
 .procap {
     text-shadow: 1px 1px 1px black;
@@ -130,8 +132,8 @@ ul {
     margin-right:33.3%;
     margin-bottom: -2rem;
     border: dotted 4px chartreuse;
-    text-shadow: 1px 1px 1px black;
-    font-family: 'lacquer', sans-serif;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Permanent Marker', cursive;
     font-size: 40px;
     color:chartreuse;
 }
@@ -156,9 +158,20 @@ ul {
         width: 100%;
         max-width: 980px;
         margin-top: 4rem;
-      }
-.icon, i{
+}
+.icon, i {
     margin: 3rem;
+}
+#contacth1 {
+    display: flex;
+    flex-direction: column;
+    margin-right:33.3%;
+    margin-left:33.3%;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'lacquer', sans-serif;
+    color:black;
+    font-size: 5rem;
+
 }
 /* footer */
 footer {
