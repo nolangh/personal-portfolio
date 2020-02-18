@@ -14,6 +14,7 @@
 </head>
 
 <body>
+                    <!-- Nav -->
     <nav id="navbar" class="nav">
         <ul class="nav-list">
             <li><a href="#welcome-section">about</a></li>
@@ -21,15 +22,17 @@
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
+                    <!-- Welcome Section -->
     <section id="welcome-section" class="welcome-section">
         <h1>Hi I'm Nolan</h1>
         <h3>Former Gold Miner / Future Developer</h3>
     </section>
-    <section id="projects" class="projects">
+                    <!-- projects section -->
+    <section id="projects" class="project-section">
         <h1>these are some of my projects</h1>
-        <div id="project-list">
-            <figure>
-                <img src="images/darth.jpg" alt="darth nihilis">
+        <div>
+            <figure class="project-tile">
+                <img src="images/darth.jpg" alt="darth nihilis" id="project-tile">
                 <figcaption>ya boi darth nihilis</figcaption>
             </figure>
             <img src="images/uvu.jpg" alt="uvu">
@@ -42,23 +45,28 @@
             </figure>
         </div>
     </section>
-    <section id="contact" class="contact">
+                    <!-- Contact Section -->
+    <section id="contact" class="icon">
         <h1>Hit Up Ya Boi</h1>
-            <a href="https://github.com/nolangh" target="_blank" class="icon">
+        <div>
+            <a href="https://github.com/nolangh" target="_blank" id="profile-link">
                 <i class="fab fa-github-square">What Really Matters</i>
             </a>
-            <a href="www.linkedin.com/in/nolan-higgins" target="_blank" class="icon">
+            <a href="www.linkedin.com/in/nolan-higgins" target="_blank">
                 <i class="fab fa-linkedin">Check Me Out</i>
             </a>
-            <a href="mailto:nolanghiggins@gmail.com" target="_blank" class="icon">
-                <i class="far fa-envelope" class="icon">Shoot Me An Email</i>
-            <a href="tel:907-978-4160" target="_blank" class="icon">
+            <a href="mailto:nolanghiggins@gmail.com" target="_blank">
+                <i class="far fa-envelope">Shoot Me An Email</i>
+            </a>
+            <a href="tel:907-978-4160" target="_blank">
                     <i class="fas fa-mobile-alt">Call me</i>
                 </a>
-            <a href="https://steamcommunity.com/profiles/76561198132931913/home" target="_blank" class="icon">
+            <a href="https://steamcommunity.com/profiles/76561198132931913/home" target="_blank">
                     <i class="fab fa-steam-square"">Let's Game</i>
                 </a>
+        </div>
     </section>
+                            <!-- Footer -->
     <footer>
         <p>&copyNolan Higgins, personal portfolio site</p>
     </footer>
