@@ -13,6 +13,7 @@ ul {
     list-style: none;
 }
 
+
 /* navigation */
 #navbar {
     width: 100%;
@@ -35,6 +36,7 @@ ul {
     margin-right: 2rem;
     text-decoration: none;
     margin-right: 2rem;
+    padding:;
 }
 
 .nav-list a {
@@ -65,15 +67,15 @@ ul {
     height: 100vh;
     background-color: coral;
 }
+
 #bolt {
     display: flex;
     flex-direction: column;
-    font-style: bold;
     width:100%;
-    text-shadow: 1px 1px 1px black;
-    font-family: 'lacquer', sans-serif;
-    color:rgb(134, 93, 134);
-    margin-top: -34rem;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Permanent Marker', cursive;
+    color:chartreuse;
+    margin-top: -36rem;
     margin-left: 5rem;
     font-size: 25px;
 }
@@ -81,6 +83,9 @@ ul {
     display: flex;
     justify-content: center;
     margin-right: 20%;
+}
+#boltfig {
+    margin-top: -10rem;
 }
 
 /* projects */
@@ -90,13 +95,12 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 5px 5px black ;
     width: 100%;
     height: 100vh;
     background-color: coral;
 }
 
-.project-tile {
+.project-area {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,6 +109,31 @@ ul {
     width: 100%;
     max-width: 980px;
     margin-top: 4rem;
+}
+
+
+.procap {
+    text-shadow: 1px 1px 1px black;
+    font-family: 'lacquer', sans-serif;
+    font-size:20px;
+    color:chartreuse;
+    background-color:rgb(134, 93, 134);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top:-.5rem;
+}
+.section-h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:33.3%;
+    margin-right:33.3%;
+    margin-bottom: -2rem;
+    border: dotted 4px chartreuse;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'lacquer', sans-serif;
+    font-size: 40px;
+    color:chartreuse;
 }
 
 /* contacts page */
