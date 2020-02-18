@@ -65,7 +65,7 @@ li {
 
 }
 /* contacts page */
-.contact {
+.icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,7 +76,7 @@ li {
     background-color: coral;
 }
 
- .icon {
+  i {
         display: flex;
         flex-direction: row;
         justify-content: center;
