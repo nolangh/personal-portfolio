@@ -1,0 +1,51 @@
+:root {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+header, h1 {
+    /* color: white; */
+    text-decoration: underline;
+}
+
+button {
+    height: 2rem;
+    border-radius: 100%;
+    font-size: medium;
+    color: yellow;
+    background-color: black;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.nav {
+    border: solid 2px black;
+    padding-right: 1rem;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+
+li {
+    list-style-type: none;
+    color: yellow;
+}
