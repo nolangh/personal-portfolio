@@ -1,0 +1,44 @@
+:root {
+    box-sizing: border-box;
+    background-color:black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+a > img {
+    height: 12rem;
+    margin: 4px;
+    border-radius: 5%;
+}
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button {
+    height: 2rem;
+    border-radius: 100%;
+    font-size: medium;
+    color: yellow;
+    background-color: black;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+
+#title {
+    color: white;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 75px;
+}
