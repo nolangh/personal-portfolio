@@ -14,3 +14,7 @@
     console.log(`start is: ${start} and end is ${end}`)
     return url.slice(start,end)
 }
+
+export function addStarField(element, numStar){
+    element.style.setProperty('background-color', 'black')
+ }
