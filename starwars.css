@@ -12,6 +12,7 @@ a > img {
     height: 12rem;
     margin: 4px;
     border-radius: 5%;
+    border:solid 1px yellow;
 }
 .buttonDiv {
     display: flex;
@@ -37,7 +38,7 @@ button {
 }
 
 #title {
-    color: white;
+    color: yellow;
     text-decoration: underline;
     font-weight: 400;
     font-size: 75px;
